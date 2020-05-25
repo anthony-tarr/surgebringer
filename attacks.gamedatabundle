@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
-      "DebugName": "Blight_Storm_StormsRage_Attack",
+      "DebugName": "Stormbringer_Proc",
       "ID": "5509f4de-5e8e-4216-a23b-cc3bd6217b9b",
       "Components": [
         {
@@ -35,8 +35,8 @@
           "DamageData": {
             "DamageType": "Shock",
             "AlternateDamageType": "None",
-            "Minimum": 18,
-            "Maximum": 28,
+            "Minimum": 10,
+            "Maximum": 20,
             "TacticalMinimumOverride": 0,
             "TacticalMaximumOverride": 0,
             "DamageProcs": []

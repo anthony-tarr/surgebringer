@@ -3662,6 +3662,63 @@
               }
             },
             {
+              "Note": "PL 1 Auto Grant - Surgebringer",
+              "Category": "Subclass",
+              "UnlockStyle": "AutoGrant",
+              "ActivationObject": "Self",
+              "AddAbilityID": "6a380bbd-858b-4b50-9aa7-b9cd72c4a377",
+              "RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+              "Prerequisites": {
+                "MinimumCharacterLevel": 1,
+                "PowerLevelRequirement": {
+                  "ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+                  "MinimumPowerLevel": 1
+                },
+                "RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+                "Conditional": {
+                  "Operator": 0,
+                  "Components": [
+                    {
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "Data": {
+                        "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                        "Parameters": [
+                          "0e7a5b7d-6eba-4d29-9bdc-a90dc145a0c4"
+                        ],
+                        "Flags": "",
+                        "UnrealCall": "",
+                        "FunctionHash": 1231916529,
+                        "ParameterHash": 1588994268
+                      },
+                      "Not": false,
+                      "Operator": 0
+                    }
+                  ]
+                },
+                "VisibilityConditional": {
+                  "Operator": 0,
+                  "Components": [
+                    {
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "Data": {
+                        "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                        "Parameters": [
+                          "0e7a5b7d-6eba-4d29-9bdc-a90dc145a0c4"
+                        ],
+                        "Flags": "",
+                        "UnrealCall": "",
+                        "FunctionHash": 1231916529,
+                        "ParameterHash": 1588994268
+                      },
+                      "Not": false,
+                      "Operator": 0
+                    }
+                  ]
+                },
+                "IsMutuallyExclusiveUpgrade": "true"
+              }
+            },
+            {
               "Note": "PL 1 Auto Grant - Fury Storm's Rage",
               "Category": "Subclass",
               "UnlockStyle": "AutoGrant",

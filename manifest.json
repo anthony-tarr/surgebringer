@@ -1,0 +1,14 @@
+{
+  "Title": {
+    "en": "Surgebringer"
+  },
+  "Description": {
+    "en": "Modifies Fury Druid to be more wild and untamed, reacting to the elements"
+  },
+  "Author": "bapplebo",
+  "ModVersion": "1.0",
+  "SupportedGameVersion": {
+    "Min": "5.0.0",
+    "Max": "5.0.0"
+  }
+}

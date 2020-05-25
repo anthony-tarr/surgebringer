@@ -1,0 +1,189 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Fury_SE_Stormshift_IncreaseSpellSpeed_Proc",
+      "ID": "ad00a0ba-4ae9-480f-92de-a62bf4d80983",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "AttackSpeedMultiplier",
+          "OverrideDescriptionString": -1,
+          "OverrideDescriptionStringTactical": -1,
+          "UseStatusEffectValueAs": "None",
+          "BaseValue": 1.5,
+          "DynamicValue": {
+            "Stat": "None",
+            "SkillDataID": "00000000-0000-0000-0000-000000000000",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MultiplyBy": 1,
+            "Operator": "Add"
+          },
+          "KeywordsIDs": [],
+          "DurationType": "UseDurationTime",
+          "Duration": 10,
+          "MaxStackQuantity": 0,
+          "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+          "ApplicationType": "ApplyOnStart",
+          "IntervalRateID": "00000000-0000-0000-0000-000000000000",
+          "StackedChildrenApplyEffects": "false",
+          "InclusionConditions": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "TriggerAdjustment": {
+            "TriggerOnEvent": "None",
+            "TriggerOffEvent": "None",
+            "ValidateWithAttackFilter": "false",
+            "ParamValue": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0,
+            "ResetTriggerOnEffectTimeout": "false",
+            "MaxTriggerCount": 0,
+            "IgnoreMaxTriggerCount": "false",
+            "RemoveEffectAtMax": "false",
+            "ChanceToTrigger": 1
+          },
+          "PowerLevelScaling": {
+            "UseCharacterLevel": "false",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0
+          },
+          "IsHostile": "false",
+          "ClearOnCombatEnd": "true",
+          "ClearOnRest": "false",
+          "ClearOnFoodRest": "false",
+          "ClearWhenAttacks": "false",
+          "ClearOnDeath": "false",
+          "HideFromCombatTooltip": "false",
+          "HideFromCombatLog": "false",
+          "HideFromUI": "false",
+          "HideIfNoValue": "false",
+          "VisualEffects": [
+            {
+              "VisualEffect": "prefabs/effects/abilities/druid/storm_fury/fx_storm_fury_chest.prefab",
+              "AttachPoint": "Chest",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnStart"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/druid/storm_fury/fx_storm_fury_head.prefab",
+              "AttachPoint": "Head",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnStart"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/druid/storm_fury/fx_storm_fury_leg_r.prefab",
+              "AttachPoint": "RightKnee",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnStart"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/druid/storm_fury/fx_storm_fury_leg_l.prefab",
+              "AttachPoint": "LeftKnee",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnStart"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/druid/storm_fury/fx_storm_fury_joint_r.prefab",
+              "AttachPoint": "ElbowRight",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnStart"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/druid/storm_fury/fx_storm_fury_joint_l.prefab",
+              "AttachPoint": "ElbowLeft",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnStart"
+            }
+          ],
+          "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Range": "None",
+            "ClassTypeID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+            "Source": "Spell",
+            "DefendedBy": "None",
+            "Empowered": "false",
+            "Disengagement": "false",
+            "Stealthed": "false",
+            "UseStealthLinger": "false",
+            "PowerLevel": 0,
+            "PowerLevelOperator": "EqualTo",
+            "ChanceToApply": 1,
+            "AttackHostility": "Default",
+            "TargetType": "None"
+          },
+          "AttackTargetFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Distance": 0,
+            "DistanceOperator": "EqualTo",
+            "HasDOT": "false",
+            "IsMarked": "false",
+            "TargetHostility": "Default"
+          },
+          "ExtraValue": 0,
+          "OverridePenetration": 0,
+          "DamageTypeValue": "All",
+          "KeywordValueID": "00000000-0000-0000-0000-000000000000",
+          "RaceValue": "None",
+          "StatusEffectTypeValue": "None",
+          "ItemValueID": "00000000-0000-0000-0000-000000000000",
+          "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+          "StatusEffectsValueIDs": [],
+          "AttackValueID": "00000000-0000-0000-0000-000000000000",
+          "AttackOverrideValue": "None",
+          "EventValue": "OnApply",
+          "ClassValueID": "00000000-0000-0000-0000-000000000000",
+          "WeaponTypeValue": "None",
+          "AttackHitType": "None",
+          "SkillValueID": "00000000-0000-0000-0000-000000000000",
+          "AudioEventListID": "0bdf4347-f11f-4906-958c-4dfdfd8e2c7e",
+          "BedRestDaysMinimum": 0,
+          "BedRestDaysMaximum": 0
+        },
+        {
+          "$type": "Game.GameData.ChangeFormEffectComponent, Assembly-CSharp",
+          "NewFormAppearance": "art/character/specialnpc/naked_man/a_m_hum_naked_storm_fury.asset",
+          "TempAbilitiesIDs": [],
+          "RemoveEquipment": "false",
+          "TempEquipmentIDs": [],
+          "FormVariationID": "00000000-0000-0000-0000-000000000000",
+          "AnimationController": "",
+          "AnimationAudioID": "2a7ff9ce-30c8-4f1b-abcb-19d08ba1542f"
+        }
+      ]
+    }
+  ]
+}

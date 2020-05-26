@@ -305,7 +305,7 @@
           "WeaponTypeValue": "None",
           "AttackHitType": "None",
           "SkillValueID": "00000000-0000-0000-0000-000000000000",
-          "AudioEventListID": "00000000-0000-0000-0000-000000000000",
+          "AudioEventListID": "8e57b0f4-290c-4598-9cf4-ca152bddf553",
           "BedRestDaysMinimum": 0,
           "BedRestDaysMaximum": 0
         }
